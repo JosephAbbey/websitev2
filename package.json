@@ -1,0 +1,32 @@
+{
+    "name": "websitev2",
+    "version": "1.0.0",
+    "description": "",
+    "main": "src/pages/index.tsx",
+    "scripts": {
+        "dev": "node server.js",
+        "build": "next build",
+        "start": "NODE_ENV=production node server.js",
+        "type-check": "tsc"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "bootstrap": "^5.0.2",
+        "next": "latest",
+        "node-fetch": "^2.6.1",
+        "react": "^17.0.2",
+        "react-bootstrap": "^1.6.1",
+        "react-dom": "^17.0.2",
+        "react-feather": "^2.0.9"
+    },
+    "devDependencies": {
+        "@types/node": "^16.0.0",
+        "@types/react": "^17.0.13",
+        "@types/react-dom": "^17.0.8",
+        "@types/next": "^9.0.0",
+        "tslint": "^5.12.1",
+        "typescript": "^4.3.5"
+    }
+}
