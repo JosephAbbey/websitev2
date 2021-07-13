@@ -13,7 +13,7 @@ module.exports = (req, res) => {
                 .then(async (results) => {
                     const videosObj = await results.json();
                     fs.writeFile(
-                        './public/data/videos.json',
+                        '../../../public/data/videos.json',
                         JSON.stringify(videosObj),
                         'utf8',
                         function (err) {
