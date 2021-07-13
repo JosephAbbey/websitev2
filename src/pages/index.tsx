@@ -10,7 +10,7 @@ class Index extends Component {
         return (
             <>
                 <head>
-                    <title>Home</title>
+                    <title>Joseph Abbey</title>
                 </head>
                 <Navbar></Navbar>
             </>
