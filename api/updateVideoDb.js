@@ -1,6 +1,6 @@
 const fetch = require('node-fetch');
 const fs = require('fs');
-const env = require('./.env.json');
+const env = require('../src/scripts/env');
 fetch(
     `https://www.googleapis.com/youtube/v3/channels?key=${env.API_KEY}&id=${env.CHANNEL_ID}&part=contentDetails`
 )
