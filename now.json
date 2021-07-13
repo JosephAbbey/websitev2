@@ -1,5 +1,5 @@
 {
     "version": 2,
     "name": "websitev2",
-    "builds": [{ "src": "server.js", "use": "@now/next" }]
+    "builds": [{ "src": "package.json", "use": "@vercel/next" }]
 }
