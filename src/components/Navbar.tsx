@@ -44,17 +44,17 @@ class comp extends Component {
                     <Nav.Link href="https://github.com/JosephAbbey">
                         <FiGithub />
                     </Nav.Link>
-                    <Nav.Link href="https://www.youtube.com/channel/UCsQs7FUahM7WjpbL9k7XthA">
-                        <FiYoutube />
-                    </Nav.Link>
-                    <Nav.Link href="http://blog.abbey1.org.uk/index.php/technology/">
-                        <FiBookmark />
-                    </Nav.Link>
                     <Nav.Link href="https://codepen.io/josephabbey">
                         <FiCodepen />
                     </Nav.Link>
                     <Nav.Link href="https://codesandbox.io/u/JosephAbbey">
                         <FiCodesandbox />
+                    </Nav.Link>
+                    <Nav.Link href="https://www.youtube.com/channel/UCsQs7FUahM7WjpbL9k7XthA">
+                        <FiYoutube />
+                    </Nav.Link>
+                    <Nav.Link href="http://blog.abbey1.org.uk/index.php/technology/">
+                        <FiBookmark />
                     </Nav.Link>
                 </Nav>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
