@@ -2,7 +2,32 @@
     padding: 0.5rem;
 }
 
+.navside {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.navside a {
+    margin-left: 10px;
+}
+
 a.nav-link.active {
     color: black !important;
     font-weight: 500;
+}
+
+.card {
+    transition: all 0.5s ease-in-out;
+}
+
+.card:hover {
+    transform: scale3d(1.006, 1.006, 1);
+    box-shadow: 0px 0px 10px 3px grey;
+}
+
+#__next,
+body,
+html {
+    height: 100%;
+    width: 100%;
 }

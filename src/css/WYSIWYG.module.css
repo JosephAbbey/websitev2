@@ -1,0 +1,15 @@
+.main {
+    outline: none;
+    height: 100%;
+    width: 100%;
+    overflow: scroll;
+}
+
+.outer {
+    height: -webkit-fill-available;
+    width: -webkit-fill-available;
+}
+
+.head .btn-group {
+    margin-right: 5px;
+}

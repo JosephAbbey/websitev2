@@ -1,6 +1,12 @@
 import React, { Component } from 'react';
 import { Nav, Navbar } from 'react-bootstrap';
-import { Bookmark, GitHub, Youtube } from 'react-feather';
+import {
+    FiBookmark,
+    FiGithub,
+    FiYoutube,
+    FiCodepen,
+    FiCodesandbox,
+} from 'react-icons/fi';
 
 class comp extends Component {
     constructor(props: object) {
@@ -28,24 +34,30 @@ class comp extends Component {
                     />{' '}
                     Joseph Abbey
                 </Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">
                         <Nav.Link href="/">Home</Nav.Link>
                         <Nav.Link href="/videos">Videos</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
-                <Nav className="mr-auto">
+                <Nav className="navside">
                     <Nav.Link href="https://github.com/JosephAbbey">
-                        <GitHub />
+                        <FiGithub />
                     </Nav.Link>
                     <Nav.Link href="https://www.youtube.com/channel/UCsQs7FUahM7WjpbL9k7XthA">
-                        <Youtube />
+                        <FiYoutube />
                     </Nav.Link>
                     <Nav.Link href="http://blog.abbey1.org.uk/index.php/technology/">
-                        <Bookmark />
+                        <FiBookmark />
+                    </Nav.Link>
+                    <Nav.Link href="https://codepen.io/josephabbey">
+                        <FiCodepen />
+                    </Nav.Link>
+                    <Nav.Link href="https://codesandbox.io/u/JosephAbbey">
+                        <FiCodesandbox />
                     </Nav.Link>
                 </Nav>
+                <Navbar.Toggle aria-controls="basic-navbar-nav" />
             </Navbar>
         );
     }

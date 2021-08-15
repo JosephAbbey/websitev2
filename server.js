@@ -8,7 +8,7 @@ const handle = app.getRequestHandler();
 const fetch = require('node-fetch');
 const fs = require('fs');
 const env = require('./src/scripts/env');
-setInterval(async () => {
+setInterval(() => {
     fetch(
         `https://www.googleapis.com/youtube/v3/channels?key=${env.API_KEY}&id=${env.CHANNEL_ID}&part=contentDetails`
     )
@@ -42,7 +42,7 @@ setInterval(async () => {
         .catch((err) => {
             console.log('Failed to update video database.', err);
         });
-}, 36000000);
+}, 3600 * 10000);
 
 app.prepare().then(() => {
     createServer((req, res) => {
